@@ -4078,7 +4078,7 @@ less-loader@^4.1.0:
     loader-utils "^1.1.0"
     pify "^3.0.0"
 
-less@^3.0.4:
+less@^3.5.3:
   version "3.5.3"
   resolved "http://registry.npm.taobao.org/less/download/less-3.5.3.tgz#108f656b5ee09a281b757a603a80aa091acf6384"
   optionalDependencies:
