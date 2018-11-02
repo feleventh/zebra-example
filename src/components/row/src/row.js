@@ -1,3 +1,4 @@
+import './row.scss'
 export default {
   name: 'ZbRow',
   componentName: 'ZbRow',

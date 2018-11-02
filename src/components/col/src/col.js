@@ -1,3 +1,4 @@
+import './col.scss'
 export default {
   name: 'ZbCol',
   componentName: 'ZbCol',

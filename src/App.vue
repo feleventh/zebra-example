@@ -1,12 +1,25 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <zb-menu id="nav">
+      <zb-menu-item path="/" pathName="Home"></zb-menu-item> |
+      <zb-menu-item path="/about" pathName="About"></zb-menu-item> |
+      <zb-menu-item path="/lottery" pathName="Lottery"></zb-menu-item>
+    </zb-menu>
     <router-view/>
   </div>
 </template>
+
+<script>
+import ZbMenu from '@/components/menu'
+import ZbMenuItem from '@/components/menuItem'
+import Lottery from '@/views/Lottery/src/Lottery.vue'
+export default {
+  components: {
+    ZbMenu, ZbMenuItem, Lottery
+  }
+}
+</script>
+
 
 <style lang="less">
 #app {
